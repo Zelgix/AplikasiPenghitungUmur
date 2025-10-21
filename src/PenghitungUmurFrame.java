@@ -48,6 +48,8 @@ public class PenghitungUmurFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel1.setText("Pilih Tanggal Lahir");
 
         jLabel2.setText("Umur Anda");
@@ -127,7 +129,8 @@ public class PenghitungUmurFrame extends javax.swing.JFrame {
                     .addComponent(btnKeluar)))
         );
 
-        jPanel2.setLayout(new java.awt.GridLayout());
+        jPanel2.setBackground(new java.awt.Color(255, 255, 204));
+        jPanel2.setLayout(new java.awt.GridLayout(1, 0));
 
         txtAreaPeristiwa.setColumns(20);
         txtAreaPeristiwa.setRows(20);
